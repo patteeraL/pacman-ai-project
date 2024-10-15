@@ -42,5 +42,4 @@ Pressing **Enter** starts the game.
   
 2. **Stochastic Search (Genetic Algorithm)**: The genetic algorithm focuses on finding the best action sequence to maximize bonus points from successive coins, prioritizing efficient collection.
 
-### ASCII Art (End)
 
