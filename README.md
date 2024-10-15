@@ -3,30 +3,30 @@ This project simulates the Pacman game, offering two algorithms to control Pacma
 
 ` This is my " Sophomore Final Project " `
 
-## Welcome Page
+### Welcome Page
 
-### Choose the Options:
+#### Choose the Options:
 Players can choose between implementing the Pacman game with either the **"Minimax"** or **"Genetic"** algorithm.
 
-## Game Start
+### Game Start
 
 Pressing **Enter** starts the game.
 
-## Explanation
+### Explanation
 
-### (Option: Minimax)
+#### (Option: Minimax)
 
 - **Pacman** is the maximizing player, while the **ghost** is the minimizing player.
 - Each agent aims to maximize their score to win, using the **minimax algorithm** influenced by the utility function.
 - The **utility function** is calculated from the evaluation function provided in the code.
 
-### (Option: Genetic Algorithm (GA))
+#### (Option: Genetic Algorithm (GA))
 
 - Each agent focuses solely on maximizing their score by collecting bonus points obtained from successive coin combos.
 - Time may be taken to reach individual coins, as agents prioritize successive coins.
 - The game ends when agents approach the last remaining coins.
 
-## Rules
+### Rules
 
 - **Pacman** moves first, followed by the **ghost**. Scores are displayed on the right-hand side.
 - Each solid coin collected earns 1 point.
@@ -36,11 +36,11 @@ Pressing **Enter** starts the game.
 - Each round concludes when no solid coins remain. The game comprises **three rounds**.
 - **Winners** of each round earn an additional **500 points**.
 
-## Optional Requirements
+### Optional Requirements
 
 1. **Probabilistic Minimax**: The behavior of coins introduces probabilistic elements, making the game non-deterministic. This randomness affects Pacman's decisions through the `scoreMinimax()` function.
   
 2. **Stochastic Search (Genetic Algorithm)**: The genetic algorithm focuses on finding the best action sequence to maximize bonus points from successive coins, prioritizing efficient collection.
 
-## ASCII Art (End)
+### ASCII Art (End)
 
