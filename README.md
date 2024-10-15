@@ -14,13 +14,13 @@ Pressing **Enter** starts the game.
 
 ### Explanation
 
-#### (Option: Minimax)
+#### Option 1: `Minimax`
 
 - **Pacman** is the maximizing player, while the **ghost** is the minimizing player.
 - Each agent aims to maximize their score to win, using the **minimax algorithm** influenced by the utility function.
 - The **utility function** is calculated from the evaluation function provided in the code.
 
-#### (Option: Genetic Algorithm (GA))
+#### Option 2: `Genetic Algorithm (GA)`
 
 - Each agent focuses solely on maximizing their score by collecting bonus points obtained from successive coin combos.
 - Time may be taken to reach individual coins, as agents prioritize successive coins.
