@@ -10,7 +10,7 @@ Players can choose between implementing the Pacman game with either the **"Minim
 
 ### Game Start
 
-Pressing **Enter** starts the game.
+Pressing ` **Enter** ` starts the game.
 
 ### Explanation
 
