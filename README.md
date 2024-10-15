@@ -3,28 +3,14 @@ This project simulates the Pacman game, offering two algorithms to control Pacma
 
 # This is my " Sophomore Final Project "
 
-
-### ________        ________          ________          _____ ______           ________          ________      
-### |\   __  \      |\   __  \        |\   ____\        |\   _ \  _   \        |\   __  \        |\   ___  \    
-### \ \  \|\  \     \ \  \|\  \       \ \  \___|        \ \  \\\__\ \  \       \ \  \|\  \       \ \  \\ \  \   
-###  \ \   ____\     \ \   __  \       \ \  \            \ \  \\|__| \  \       \ \   __  \       \ \  \\ \  \  
-###   \ \  \___|      \ \  \ \  \       \ \  \____        \ \  \    \ \  \       \ \  \ \  \       \ \  \\ \  \ 
-###    \ \__\          \ \__\ \__\       \ \_______\       \ \__\    \ \__\       \ \__\ \__\       \ \__\\ \__\
-###     \|__|           \|__|\|__|        \|_______|        \|__|     \|__|        \|__|\|__|        \|__| \|__|
-
-
 ## Welcome Page
 
 ### Choose the Options:
 Players can choose between implementing the Pacman game with either the **"Minimax"** or **"Genetic"** algorithm.
 
----
-
 ## Game Start
 
 Pressing **Enter** starts the game.
-
----
 
 ## Explanation
 
@@ -40,8 +26,6 @@ Pressing **Enter** starts the game.
 - Time may be taken to reach individual coins, as agents prioritize successive coins.
 - The game ends when agents approach the last remaining coins.
 
----
-
 ## Rules
 
 - **Pacman** moves first, followed by the **ghost**. Scores are displayed on the right-hand side.
@@ -52,21 +36,11 @@ Pressing **Enter** starts the game.
 - Each round concludes when no solid coins remain. The game comprises **three rounds**.
 - **Winners** of each round earn an additional **500 points**.
 
----
-
 ## Optional Requirements
 
 1. **Probabilistic Minimax**: The behavior of coins introduces probabilistic elements, making the game non-deterministic. This randomness affects Pacman's decisions through the `scoreMinimax()` function.
   
 2. **Stochastic Search (Genetic Algorithm)**: The genetic algorithm focuses on finding the best action sequence to maximize bonus points from successive coins, prioritizing efficient collection.
 
----
-
 ## ASCII Art (End)
 
-```plaintext
-████████     ██   ██      █████      ███    ██     ██   ██     ███████         ██ 
-   ██        ██   ██     ██   ██     ████   ██     ██  ██      ██              ██ 
-   ██        ███████     ███████     ██ ██  ██     █████       ███████         ██ 
-   ██        ██   ██     ██   ██     ██  ██ ██     ██  ██           ██            
-   ██        ██   ██     ██   ██     ██   ████     ██   ██     ███████         ██ 
