@@ -10,7 +10,7 @@ Players can choose between implementing the Pacman game with either the **"Minim
 
 ### Game Start
 
-Pressing ` **Enter** ` starts the game.
+Pressing ` Enter ` starts the game.
 
 ### Explanation
 
@@ -41,5 +41,7 @@ Pressing ` **Enter** ` starts the game.
 1. **Probabilistic Minimax**: The behavior of coins introduces probabilistic elements, making the game non-deterministic. This randomness affects Pacman's decisions through the `scoreMinimax()` function.
   
 2. **Stochastic Search (Genetic Algorithm)**: The genetic algorithm focuses on finding the best action sequence to maximize bonus points from successive coins, prioritizing efficient collection.
-
+   
+## Author
+Developed by Patteera Lerdtada.
 
